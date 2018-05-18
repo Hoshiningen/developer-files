@@ -1,0 +1,11 @@
+# Utility
+
+alias bashrc="vim ~/.bashrc && source ~/.bashrc"
+
+alias c="clear"
+
+
+
+# Meld
+
+alias meld="Meld.exe"
