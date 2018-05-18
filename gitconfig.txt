@@ -1,68 +1,35 @@
 [user]
-	
 	email = hoshiningen@gmail.com
-
 	name = Brian Smith
 
-
 [alias]
-
 	co = checkout
-
 	br = branch
-
 	ci = commit
-
 	ec = config --global --edit
-
 	lg = log --pretty='format: %C(yellow)%h%C(reset) <%C(bold green)%ar%C(reset)> %C(auto)%d%C(reset) %s [%C(bold magenta)%an%C(reset)]' --graph
- 
 	lga = log --pretty='format: %C(yellow)%h%C(reset) <%C(bold green)%ar%C(reset)> %C(auto)%d%C(reset) %s [%C(bold magenta)%an%C(reset)]' --graph --all
-
 	fap = fetch --all -p
-
 	melddiff = difftool -dir-diff
-
 	meldmerge = mergetool
 
-
-
 [rebase]
-
 	autosquash = true
 
-
-
 [core]
-	
 	autocrlf = true
 
-
-
 [diff]
-
 	tool = meld
-
-
 
 [difftool]
-
 	prompt = false
 
-
-
 [merge]
-
 	tool = meld
 
-
-
 [mergetool "meld"]
-
 	cmd = meld "$LOCAL" "$MERGED" "$REMOTE" --output "$MERGED"
 
-
-
 [difftool "meld"]
-
 	cmd = meld "$LOCAL" "$REMOTE"
