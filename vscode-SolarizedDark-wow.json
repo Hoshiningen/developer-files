@@ -261,6 +261,90 @@
             "settings": {
                 "foreground": "#FF7030"
             }
+        },
+
+        // Python
+        {
+            "scope": "support.type.exception.python",
+            "settings": {
+                "foreground": "#4ec9b0"
+            }
+        },
+        {
+            "scope": "constant.other.caps.python",
+            "settings": {
+                "foreground": "#0070DE"
+            }
+        },
+        {
+            "scope": "string.regexp.quoted.single.python",
+            "settings": {
+                "foreground": "#A330C9"
+            }
+        },
+
+        // Markdown
+        {
+            "scope": "markup.list.unnumbered.markdown",
+            "settings": {
+                "foreground": "#C79C6E"
+            }
+        },
+        {
+            "scope": "markup.list.numbered.markdown",
+            "settings": {
+                "foreground": "#C79C6E"
+            }
+        },
+        {
+            "scope": "text.html.markdown",
+            "settings": {
+                "foreground": "#DADADA"
+            }
+        },
+        {
+            "scope": "markup.heading.markdown",
+            "settings": {
+                "foreground": "#9482ca"
+            }
+        },
+        {
+            "scope": "markup.fenced_code.block.markdown",
+            "settings": {
+                "foreground": "#4ec9b0"
+            }
+        },
+        {
+            "scope": "markup.inline.raw.string.markdown",
+            "settings": {
+                "foreground": "#4ec9b0"
+            }
+        },
+        {
+            "scope": "meta.image.inline.markdown",
+            "settings": {
+                "foreground": "#4ec9b0"
+            }
+        },
+        {
+            "scope": "meta.link.inline.markdown",
+            "settings": {
+                "foreground": "#4ec9b0"
+            }
+        },
+        {
+            "scope": "markup.bold.markdown",
+            "settings": {
+                "foreground": "#4ec9b0",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "markup.italic.markdown",
+            "settings": {
+                "foreground": "#4ec9b0",
+                "fontStyle": "italic"
+            }
         }
 
     ],
