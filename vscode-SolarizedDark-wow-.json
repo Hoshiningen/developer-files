@@ -1,0 +1,269 @@
+"workbench.colorTheme": "Solarized Dark",
+"editor.tokenColorCustomizations": {
+    "comments":{
+        "foreground": "#477786",
+        "fontStyle": ""
+    },
+    "functions":{
+        "foreground": "#c8c8c8",
+        "fontStyle": ""
+    },
+    "numbers": "#fff569",
+    "textMateRules": [
+        {
+            "scope": "storage",
+            "settings": {
+                "foreground": "#FF7030",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "variable.language",
+            "settings": {
+                "foreground": "#FF7030",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "variable.other.enummember",
+            "settings": {
+                "foreground": "#abd473",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "keyword.control.import",
+            "settings": {
+                "foreground": "#9482ca",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "keyword.control.export",
+            "settings": {
+                "foreground": "#FF7030",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "keyword.control.flow",
+            "settings": {
+                "foreground": "#FF7030",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "keyword.control.from",
+            "settings": {
+                "foreground": "#9482ca",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "keyword.control.as",
+            "settings": {
+                "foreground": "#9482ca",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "keyword.operator.new",
+            "settings": {
+                "foreground": "#268bd2",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "keyword.operator",
+            "settings": {
+                "foreground": "#839496",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "constant.language",
+            "settings": {
+                "foreground": "#FF7030",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "constant.language.import-export-all",
+            "settings": {
+                "foreground": "#c8c8c8",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "keyword.control.default",
+            "settings": {
+                "foreground": "#FF7030",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "entity.other.inherited-class",
+            "settings": {
+                "foreground": "#4ec9b0",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "variable.other.readwrite.alias",
+            "settings": {
+                "foreground": "#c8c8c8",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "variable.parameter",
+            "settings": {
+                "foreground": "#7f7f7f",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "variable.other.readwrite",
+            "settings": {
+                "foreground": "#7f7f7f",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "variable.other.constant",
+            "settings": {
+                "foreground": "#c8c8c8",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "variable.other.property",
+            "settings": {
+                "foreground": "#c8c8c8",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "variable.other.object",
+            "settings": {
+                "foreground": "#c8c8c8",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "support.type.property-name",
+            "settings": {
+                "foreground": "#c8c8c8",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "support.constant.property-value",
+            "settings": {
+                "foreground": "#F58CBA",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "keyword.operator.logical",
+            "settings":{
+                "foreground": "#FF7030",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "constant.character.format",
+            "settings": {
+                "foreground": "#9482ca",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "meta.fstring",
+            "settings": {
+                "foreground": "#c8c8c8c8",
+                "fontStyle": ""
+            }
+        },
+
+        // CSS
+        
+        {
+            "scope": "keyword.control.at-rule.import",
+            "settings": {
+                "foreground": "#9482ca",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "keyword.other.unit",
+            "settings": {
+                "foreground": "#FFF569",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "entity.other.attribute-name",
+            "settings": {
+                "foreground": "#4ec9b0",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "constant.other.color.rgb-value",
+            "settings": {
+                "foreground": "#A330C9",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "support.constant.color",
+            "settings": {
+                "foreground": "#A330C9",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "entity.name.tag",
+            "settings": {
+                "foreground": "#4ec9b0",
+                "fontStyle": ""
+            }
+        },
+
+        // CPP
+
+        {
+            "scope": "keyword.control.directive.include",
+            "settings": {
+                "foreground": "#9482ca",
+                "fontStyle": ""
+            }
+        },
+
+        // Cmake
+        {
+            "scope": "keyword.cmake",
+            "settings": {
+                "foreground": "#FF7030",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "storage.source.cmake",
+            "settings": {
+                "foreground": "#7CA5A0",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "entity.source.cmake",
+            "settings": {
+                "foreground": "#FF7030"
+            }
+        }
+
+    ],
+    "types": "#4ec9b0",
+    "keywords": "#FF7030",
+}
